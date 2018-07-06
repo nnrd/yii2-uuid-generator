@@ -16,7 +16,7 @@
     ],
     "require": {
         "yiisoft/yii2": "*",
-        "aracoool/yii2-uuid": "^1.1",
+        "aracoool/yii2-uuid": "^1.1"
     },
     "autoload": {
         "psr-4": {
