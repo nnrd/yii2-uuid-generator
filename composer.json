@@ -16,10 +16,11 @@
     ],
     "require": {
         "yiisoft/yii2": "*",
+        "aracoool/yii2-uuid": "^1.1",
     },
     "autoload": {
         "psr-4": {
-            "nonamenerd\\UuidGenerator\\": "src"
+            "nonamenerd\\Uuid\\": "src"
         }
     }
 }
