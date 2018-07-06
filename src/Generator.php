@@ -37,8 +37,8 @@ class Generator extends Component
      * @param array $params Parameters to generate uuid value
      * @return string Generated uuid value
      */
-    public function generate($params = null)
+    public function generate($params = [])
     {
-        return call_user_func_array("Uuid::{$this->versions[$this->version]}", $params);
+        return call_user_func_array("\aracoool\uuid\Uuid::{$this->versions[$this->version]}", $params);
     }
 }
